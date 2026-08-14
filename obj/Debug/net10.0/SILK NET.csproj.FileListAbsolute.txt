@@ -32,3 +32,4 @@ C:\Users\RbzAly\Documents\Projeto_Programacao\OpenGL\SILK NET\obj\Debug\net10.0\
 C:\Users\RbzAly\Documents\Projeto_Programacao\OpenGL\SILK NET\obj\Debug\net10.0\SILK NET.pdb
 C:\Users\RbzAly\Documents\Projeto_Programacao\OpenGL\SILK NET\obj\Debug\net10.0\SILK NET.genruntimeconfig.cache
 C:\Users\RbzAly\Documents\Projeto_Programacao\OpenGL\SILK NET\obj\Debug\net10.0\ref\SILK NET.dll
+C:\Users\RbzAly\Documents\Projeto_Programacao\OpenGL\SILK NET\obj\Debug\net10.0\SILK NET.sourcelink.json

@@ -101,7 +101,7 @@ public class Program
         _gl.CompileShader(fragmentShader);
 
         _gl.GetShader(fragmentShader, ShaderParameterName.CompileStatus, out int fStatus);
-        if(fStatus != (int) GLEnum.Type) 
+        if(fStatus != (int) GLEnum.True) 
             throw new Exception("Fragment shader failed to compile: " + _gl.GetShaderInfoLog(fragmentShader));
 
 

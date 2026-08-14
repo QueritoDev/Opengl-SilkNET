@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SILK NET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac6f1a0519e690c8f0bb143ec9762a5b95b7b3b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SILK NET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SILK NET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
