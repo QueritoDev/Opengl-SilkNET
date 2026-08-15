@@ -22,8 +22,8 @@ public class Program
         
     private static readonly uint[] Indices =
     {
-        0u, 1u, 3u,
-        1u, 2u, 3u,
+        0u, 1u, 2u,
+        0u, 1u, 2u,
     };
         
 
@@ -41,12 +41,9 @@ public class Program
         
         _window.Update += OnUpdate;
         _window.Render += OnRender;
-        _window.Update += OnUpdate;
-
         _window.Closing += OnClose;
         _window.Run();
         
-
         _window.Dispose();
     }
 
@@ -57,7 +54,7 @@ public class Program
             input.Keyboards[i].KeyDown += KeyDown;
         _gl = _window.CreateOpenGL();
         
-        _gl.ClearColor(Color.Wheat);
+        _gl.ClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         _vao = _gl.GenVertexArray();
         _gl.BindVertexArray(_vao);
         _vbo = _gl.GenBuffer();
@@ -74,7 +71,7 @@ public class Program
         fixed (uint* buf = Indices)
             _gl.BufferData(BufferTargetARB.ElementArrayBuffer, (nuint) (Indices.Length * sizeof(uint)), buf, BufferUsageARB.StaticDraw);
 
-        // CREATE THE VERTEX CODE
+        // Vertex shader
         const string vertexCode = @"
         #version 330 core
 
